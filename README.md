@@ -1,5 +1,3 @@
-
-
 <!-- # React + Vite information <ignore>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -34,7 +32,8 @@ This is a simple single-page To-Do List application built using **React** and **
 - Basic CSS
 
 ## How to Run Locally
+- All the files are in src and index.html is seperately present
+
 ```bash
 npm install
 npm run dev
-
