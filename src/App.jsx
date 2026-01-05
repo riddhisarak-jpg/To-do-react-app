@@ -57,13 +57,13 @@ function App() {
   // Function to add a new task to the list
   const addTask = () => {
     // Prevent adding empty or whitespace-only tasks
-    if (input.trim() === "") return;
+    if (input.trim() === "") return; 
 
     // Create a new task object and add it to the existing tasks array
     // We use spread operator (...) to keep old tasks and add a new one
     setTasks([...tasks, { text: input, done: false }]);
 
-    // Clear the input box after adding the task
+    // Clear the input box after adding the task 
     setInput("");
   };
 
