@@ -45,10 +45,10 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  // `tasks` stores the list of todo items
+  // value- `tasks` stores the list of todo items
   // Each task is an object: { text: string, done: boolean }
-  // `setTasks` is used to update the tasks list
-  const [tasks, setTasks] = useState([]);
+  // function/method -`setTasks` is used to update the tasks list
+  const [tasks, setTasks] = useState([]);// Initial value is an empty array
 
   // `input` stores the current value typed in the input box
   // `setInput` updates the input value as the user types
